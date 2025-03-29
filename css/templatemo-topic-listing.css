@@ -523,7 +523,7 @@ strong {
   HERO
 -----------------------------------------*/
 .hero-section {
-  background-image: url("./images/hero-bg.jpg");
+  background-image: url("../images1/hero-bg.jpg");
   overflow: hidden;
   padding-bottom: 100px;
   filter: grayscale(0) !important;
@@ -580,7 +580,7 @@ strong {
 
 
 .about-me {
-  background-image: url(../images/BG/BG/sari-about-changed-bg.jpg);
+  background-image: url(../images1/BG/BG/sari-about-changed-bg.avif);
   background-size: 100% auto; /* Stretch horizontally, maintain aspect ratio */
   background-position: bottom center; /* Align to the bottom */
   display: flex;
@@ -600,7 +600,7 @@ strong {
 }
 
 .sari-about-me {
-  background-image: url(../images/just-a-bg.jpg);
+  background-image: url(../images1/just-a-bg.avif);
   background-size: cover; /* Stretch horizontally, maintain aspect ratio */
   background-position: bottom center; /* Align to the bottom */
   height: auto; /* Allow height to grow based on content */
@@ -611,7 +611,7 @@ strong {
 
 
 .achivment-bg {
-  /* background-image: url(../images/achievment-gb.jpg); */
+
   background-color: #eeeeee;
   background-size: cover;
   background-position: center;
@@ -622,7 +622,7 @@ strong {
 
 
 .achivment-bg-cta {
-  background-image: url(../images/test-2.bg.jpg);
+  background-image: url(../images1/test-2.bg.jpg);
   background-color: black;
   /* background-color: #eeeeee; */
   background-size: cover;
@@ -634,7 +634,7 @@ strong {
 
 
 .test-bg {
-  background-image: url(../images/test-2.bg.jpg);
+  background-image: url(../images1/test-2.bg.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -887,7 +887,7 @@ blockquote {
   TIMELINE
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  /* background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1587,7 +1587,7 @@ p {
 
 
   .about-me {
-    background-image: url(../images/about-bg.jpg);
+    background-image: url(../images1/about-bg.webp);
     background-size: cover; /* Stretch horizontally, maintain aspect ratio */
     background-position: bottom center; /* Align to the bottom */
     display: flex;
@@ -1612,7 +1612,7 @@ p {
 
 
   .sari-about-me {
-    background-image: url(../images/just-a-bg.jpg);
+    background-image: url(../images1/just-a-bg.avif);
     background-size: cover; /* Stretch horizontally, maintain aspect ratio */
     background-position: bottom center; /* Align to the bottom */
     height: auto; /* Allow height to grow based on content */
@@ -2071,7 +2071,7 @@ code {
   } 
 
   .explore-section {
-    background-image: url(../images/uuunion.svg);
+    background-image: url(../images1/uuunion.svg);
     /* background-color: #eeeeee; */
     background-size: cover;
     background-position: center;
@@ -2083,7 +2083,7 @@ code {
 
 
       .explore-section-2 {
-        background-image: url(../images/color4bg_2025-03-27_17_44_47.png);
+        background-image: url(../images1/color4bg_2025-03-27_17_44_47.avif);
        
         background-size: cover;
         background-position: center;
@@ -2201,7 +2201,7 @@ code {
 /* scroll animation */
 
 .hero-bg {
-  background-image: url(../images/test-5.jpg);
+  background-image: url(../images1/test-5.avif);
   background-size: cover;
   background-position: center 60%; /* Move the image down by 20% */
   display: flex;
