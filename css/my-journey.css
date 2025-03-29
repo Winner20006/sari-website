@@ -30,7 +30,7 @@ body, html {
 }
 
 .containerse {
-  background-image: url("../images/test-4.jpg");
+  background-image: url("../images1/test-4.avif");
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
