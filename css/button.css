@@ -281,6 +281,28 @@
 }
 
 
+.wave-button-ss {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+    background-color:  #22333b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 250px; /* Default width for larger screens */
+    height: 90px;
+    transition: all 0.3s ease;
+    
+}
+
+.wave-button-ss:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
 .wave-button3 {
     position: relative;
     font-size: 20px; /* Increased font size */
@@ -332,6 +354,12 @@
     }
 
     .wave-button-s {
+        width: 100% !important; /* Adjust width for smaller screens */
+        height: 65px !important;
+
+    }
+
+    .wave-button-ss {
         width: 100% !important; /* Adjust width for smaller screens */
         height: 65px !important;
 

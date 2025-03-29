@@ -342,7 +342,7 @@
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-medium);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
     position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -385,7 +385,7 @@
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-medium);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
     position: relative;
   }
   
@@ -1300,7 +1300,7 @@
       font-size: 2.7rem !important
     }
     .h1-hero{ 
-      font-size: 4.5rem !important
+      font-size: 3.5rem !important
     }
   
     h1 {
@@ -1481,7 +1481,7 @@
     text-align: center;
     font-size: 12px; /* Adjusted for smaller size */
     font-weight: 600;
-    letter-spacing: 1px; /* Adjusted for smaller size */
+    /* letter-spacing: 1px;  */
     text-transform: uppercase;
     color: #fff;
     padding: 5px 0; /* Adjusted for smaller size */
@@ -1503,14 +1503,14 @@
     font-size: 12px; /* Adjusted for smaller size */
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     text-decoration: none;
     transition: .5s;
   }
   
-  .box .content a:hover {
-    letter-spacing: 2px; /* Adjusted for smaller size */
-  }
+  /* .box .content a:hover {
+    letter-spacing: 2px;
+  } */
   
   .box:hover::before {
     inset: -15px 0px; /* Adjusted for smaller size */
@@ -2196,7 +2196,8 @@
   .ftco-counter .ftco-label {
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: .1em; }
+    /* letter-spacing: .1em;  */
+  }
   
     /* .round-icon {
       width:100px;

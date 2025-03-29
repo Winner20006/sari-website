@@ -352,7 +352,7 @@ strong {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -395,7 +395,7 @@ strong {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   position: relative;
 }
 
@@ -1237,7 +1237,7 @@ blockquote {
 }
 
 h2 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
 }
 
 h3 {
@@ -1257,7 +1257,7 @@ h6 {
 }
 
 p {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
 }
 
   .section-padding {
@@ -1395,7 +1395,7 @@ p {
   text-align: center;
   font-size: 12px; /* Adjusted for smaller size */
   font-weight: 600;
-  letter-spacing: 1px; /* Adjusted for smaller size */
+  /* letter-spacing: 1px;  */
   text-transform: uppercase;
   color: #fff;
   padding: 5px 0; /* Adjusted for smaller size */
@@ -1416,14 +1416,14 @@ p {
   font-size: 12px; /* Adjusted for smaller size */
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   text-decoration: none;
   transition: .5s;
 }
 
-.box .content a:hover {
-  letter-spacing: 2px; /* Adjusted for smaller size */
-}
+/* .box .content a:hover {
+  letter-spacing: 2px; 
+} */
 
 .box:hover::before {
   inset: -15px 0px; /* Adjusted for smaller size */
@@ -2055,7 +2055,8 @@ code {
 .ftco-counter .ftco-label {
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  /* letter-spacing: .1em;  */
+}
 
   .round-icon {
     width:100px;
