@@ -68,6 +68,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--body-font-family) !important;
     color:  #22333b !important;
+
   }
   
   h1,
@@ -82,17 +83,21 @@
   h1 {
     font-size: var(--h1-font-size);
     font-weight: var(--font-weight-bold);
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
   }
   
   h2 {
     font-size: var(--h2-font-size)  ;
     font-weight: var(--font-weight-bold);
+
   }
   
   h3 {
     font-size: var(--h3-font-size);
     font-family: 'Frutiger LT Arabic 55 Roman', sans-serif !important;
-  
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
   }
   
   h4 {
@@ -101,11 +106,14 @@
   
   h5 {
     font-size: var(--h5-font-size);
+   
   }
   
   h6 {
     color: var(--primary-color);
     font-size: var(--h6-font-size);
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
   }
   
   
@@ -121,6 +129,7 @@
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-normal);
     color:  #22333b !important;
+
   }
   
   ul li {
@@ -128,6 +137,8 @@
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-normal);
     color:  #22333b !important;
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
   }
   
   a,
