@@ -97,8 +97,7 @@ h2 {
 h3 {
   font-size: var(--h3-font-size);
   font-family: 'Frutiger LT Arabic 55 Roman', sans-serif !important;
-  direction: rtl !important;
-  unicode-bidi: bidi-override !important;
+  
 }
 
 h4 {
