@@ -19,3 +19,12 @@ $(function() {
     }
 
 })
+
+
+
+
+
+
+setTimeout(function() {
+    window.location.href = "/index.html"; // Redirect to the root (index.html)
+}); // Redirect after 3 seconds (adjust as needed)
